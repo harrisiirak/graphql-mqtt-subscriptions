@@ -21,7 +21,6 @@
   "homepage": "https://github.com/henhen724/graphql-mqtt-subscriptions",
   "scripts": {
     "compile": "tsc --noUnusedParameters --noUnusedLocals",
-    "postinstall": "npm run compile",
     "pretest": "npm run compile",
     "test": "npm run testonly --",
     "posttest": "npm run lint",
